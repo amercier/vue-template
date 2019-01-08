@@ -1,0 +1,20 @@
+language: node_js
+node_js: --lts # LTS
+cache: yarn
+before_script:
+  - yarn lint
+script:
+  - yarn test:unit --colors
+  - yarn test:e2e --headless --config video=false
+after_success:
+  - yarn build # Prevent before_deploy not being tested in PRs
+before_deploy:
+  - echo "$CNAME" > dist/CNAME
+deploy:
+  provider: pages
+  github-token: $GITHUB_TOKEN
+  local-dir: dist
+  skip_cleanup: true
+  keep-history: true
+  on:
+    branch: master
