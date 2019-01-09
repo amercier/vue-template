@@ -8,6 +8,9 @@
     "lint": "run-p lint:*",
     "lint:vue": "vue-cli-service lint --no-fix",
     "lint:prettier": "prettier --ignore-path .gitignore --list-different '**/*.{html,json,md,s?css,ya?ml}'",
+    "fix": "run-p fix:*",
+    "fix:vue": "vue-cli-service lint",
+    "fix:prettier": "run-s 'lint:prettier --write'",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },

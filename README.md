@@ -24,10 +24,16 @@ yarn build
 yarn test
 ```
 
-### Lints and fixes files
+### Lints files
 
 ```
 yarn lint
+```
+
+### Fixes files
+
+```
+yarn fix
 ```
 
 ### Run your end-to-end tests
