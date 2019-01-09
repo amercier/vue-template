@@ -24,28 +24,22 @@ yarn build
 yarn test
 ```
 
-### Lints files
+### Lints and fixes files
 
 ```
 yarn lint
 ```
 
-### Fixes files
-
-```
-yarn fix
-```
-
 ### Run your end-to-end tests
 
 ```
-yarn test:e2e
+yarn test-e2e
 ```
 
 ### Run your unit tests
 
 ```
-yarn test:unit
+yarn test
 ```
 
 ### Customize configuration

@@ -4,8 +4,8 @@ cache: yarn
 before_script:
   - yarn lint
 script:
-  - yarn test:unit --colors --coverage
-  - yarn test:e2e --headless --config video=false
+  - yarn test
+  - yarn e2e
 after_success:
   - yarn build # Prevent before_deploy not being tested in PRs
   - codecov
