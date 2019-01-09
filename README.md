@@ -51,3 +51,7 @@ yarn test:unit
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## License
+
+[![License](https://img.shields.io/github/license/amercier/vue-template.svg)](LICENSE.md)
