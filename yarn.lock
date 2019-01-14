@@ -4598,12 +4598,13 @@ ieee754@^1.1.4:
   version "1.1.12"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.12.tgz#50bf24e5b9c8bb98af4964c941cdb0918da7b60b"
 
-if-ci@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/if-ci/-/if-ci-2.0.2.tgz#5c79b5f7f13973b991e6549ee290803c4330a2f5"
+if-ci@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/if-ci/-/if-ci-3.0.0.tgz#ad72696d5fd3f5c6a6e7e8bb51133de23eaca110"
+  integrity sha512-/0vPNr5ZDR3znyP83SFMqe6oUVeiAeGt5QnPanVJjPGH7Z7JrZnYUEt7gpkK7C8NTIH5BLSqnA5IPdUnYof6pA==
   dependencies:
-    execa "^0.7.0"
-    is-ci "^1.0.10"
+    execa "^1.0.0"
+    is-ci "^2.0.0"
 
 iferr@^0.1.5:
   version "0.1.5"
