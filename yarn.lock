@@ -7515,9 +7515,14 @@ prettier@1.13.7:
   version "1.13.7"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.7.tgz#850f3b8af784a49a6ea2d2eaa7ed1428a34b7281"
 
-prettier@^1.15.2, prettier@^1.15.3:
+prettier@^1.15.2:
   version "1.15.3"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
+
+prettier@^1.18.1:
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.1.tgz#2c79bdc97cbd457fc56e2f37c91cf076d69a8e07"
+  integrity sha512-cO2Lm9UuFJHhNgHSChbFddQEzNPP+sA6fX1tGmC0VNqTc2X+7EH0gpGWdEX0HfCe5+NVyOyyyWUpLKsb8LU5vg==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
